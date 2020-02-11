@@ -1,3 +1,26 @@
+nav {
+    font-family: 'Roboto Slab', serif;
+    
+}
+.navbar-brand {
+    font-size: 40px;
+    padding: 10px;
+    height: 100%;
+    margin: 0;
+    border-radius: 15px 45px;
+    background-color: #eef3d8;
+    color: #4d6466
+}
+.navbar {
+    background-color: #4d6466;
+}
+
+body {
+    background-image: url(../images/background-pattern.png);
+}
+.container {
+    font-family: 'Raleway', sans-serif;
+}
 .img-div .portfolio-img {
     display: block;
     height: 200px;
@@ -16,7 +39,7 @@
     width: 100%;
     height: 200px;
     background: rgba(0, 0, 0, 0.6);
-    color: #fff;
+    color: #eef3d8;
     
     -moz-transition: all 0.4s ease-in-out 0s;
     -webkit-transition: all 0.4s ease-in-out 0s;
@@ -24,9 +47,7 @@
     transition: all 0.4s ease-in-out 0s;
 }
 
-.image-overlay {
-    
-}
+
 
 .img-div:hover .image-overlay,
 .img-div:active .image-overlay {
@@ -47,8 +68,28 @@
 
 }
 
+.about, .portfolio, .contact {
+    background-color: #b7d8d6;
+    color: #4d6466;
+}
 
+.submit-btn {
+    background-color: #4d6466;
+    color: #eef3d8;
+}
 
+footer {
+    background-color: #789e9e;
+    font-family: 'Roboto Slab', serif;
+}
+
+#footer-links {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: #eef3d8;
+    text-decoration: none;
+
+}
 
 
 
