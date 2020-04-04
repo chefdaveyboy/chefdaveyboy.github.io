@@ -25,7 +25,7 @@ body {
     display: block;
     height: 200px;
     width: 100%;
-    
+    box-shadow: 0 5px 15px 0 rgba(87, 87, 87, 0.829);
 }
 
 
@@ -89,6 +89,11 @@ footer {
     color: #eef3d8;
     text-decoration: none;
 
+}
+
+#profile-img {
+    box-shadow: 0 5px 15px 0 rgba(87, 87, 87, 0.829);
+    filter: contrast(130%);
 }
 
 
